@@ -1,7 +1,7 @@
 
 
 def main():
-    print("Start 4. task")
+    print("Start 5. task")
 
 
 if __name__ == "__main__":

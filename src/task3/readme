@@ -1,12 +1,9 @@
-According to the creation myths of the Abrahamic religions, Adam and Eve were the first Humans to wander the Earth.
+Your task is to make a function that can take any non-negative integer as a argument and return it with its digits in descending order.
 
-You have to do God's job.
-The creation method must return an array of length 2 containing objects (representing Adam and Eve).
-The first object in the array should be an instance of the class Man.
-The second should be an instance of the class Woman.
-Both objects have to be subclasses of Human. Your job is to implement the Human, Man and Woman classes.
+Examples:
+Input: 21445 Output: 54421
+Input: 145263 Output: 654321
+Input: 1254859723 Output: 9875543221
 
-Then create function which call method get_name on every object in array
-
-Advanced
-Think about next generation. Two class can create new object. With random gender.
+Advanced:
+Add boolean parameter. If it´s True use descending order. Otherwise ascending order.
